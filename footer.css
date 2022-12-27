@@ -1,0 +1,159 @@
+/* Footer */
+.footer{
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-left: 360px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container_address{
+    margin: -100px 40px 0 0;
+}
+
+.container_service{
+    margin: 0 40px 0 0;
+}
+
+.container_company{
+    margin: 0 70px 0 0;
+}
+
+.container_social{
+    margin: 0 40px 0 0;
+}
+
+.container_join{
+    margin-top: -56px;
+}
+
+.li1{
+    margin: 0 0 30px;
+}
+
+.li2{
+    margin: 0 0 15px;
+}
+
+.li1_link{
+    font-family: 'Mulish';
+    font-style: normal;
+    margin: 0 0 30px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 22px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #3D3D3F;
+    text-decoration: none;
+}
+
+.li2_link{
+    font-family: 'Mulish';
+    font-style: normal;
+    margin: 0 0 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+    text-decoration: none;
+}
+
+.input_email{
+    background: #FFFFFF;
+    width: 296px;
+    height: 48px;
+    border: 1px solid rgba(179, 179, 179, 0.21);
+    border-radius: 8px;
+    margin-top: -10px;
+    text-align:start;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #999999;
+}
+
+.join_btn{
+    width: 162px;
+    height: 53px;
+    font-family: 'Mulish';
+    background: #FD695A;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: 0px;
+    margin-right: -122px;
+    margin-top: 20px;
+}
+
+.join_btn:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0 2px #3D3D3F;
+}
+
+.footer-footer1{
+    border-top: 1px solid #d8d8d8;
+    margin-top: 50px;
+    display: flex;
+    width: 1980px;
+}
+
+
+.footer-footer{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.footer-footer_text1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
+    white-space: nowrap;
+}
+
+.footer-footer_text2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
+    margin-left: 1000px;
+}
+
+.footer-footer_text3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
+        padding-left: 50px;
+}
+
+.footer-footer_text4{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
+    padding-left: 50px;
+}
+
+@media(max-width: 1440px){
+    .container_service{
+        margin-top: 100px;
+    }
+}
+
